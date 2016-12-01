@@ -1,0 +1,16 @@
+1- We need create a text anlyzer that provide the following basic statistics:
+
+- Character count
+- Character count(excluding spaces)
+- Word count
+- Sentence count
+- Paragraph count
+- Average number of words per sentence
+- Average number of sentences per paragraph
+
+2- Create a regex expression that only permits this:
+a) 407-555-1212 or 321-555-1212
+b) email 
+	valid: sara@example.com, sara@example.net , sara@example.org, sara.example.edu
+	invalid: sara@example!com , sara@example , sara@example.comlasada
+c) ok, Okay, sure, yes, y 
