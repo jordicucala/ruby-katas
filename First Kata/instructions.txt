@@ -14,3 +14,13 @@ b) email
 	valid: sara@example.com, sara@example.net , sara@example.org, sara.example.edu
 	invalid: sara@example!com , sara@example , sara@example.comlasada
 c) ok, Okay, sure, yes, y 
+
+3- Create an array with the following words: 'ruby', 'rails', 'test', 'gympass', 'bcn'
+a) Get the first element of array
+b) Get the last element of array
+c) Add the new element 'new'
+d) Remove the last element
+e) Remove the 'test' element
+f) concat wit this array [true,true,true]
+j) Print only pair numbers; numbers = [1,2,3,4,5,6,7,8,9,10]
+
