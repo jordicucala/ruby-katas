@@ -13,8 +13,18 @@ class Analyzer
     lines = file_lines(file)
     lines.each do |line|
       line.each_char do |char|
-        count++ unless char == ' ' OR char == "\n"
+        count += 1 unless(char == ' ' || char == "\n")
       end
+    end
+    count
+  end
+
+  def word_count(file='../oliver.txt')
+    count = 0
+    lines = file_lines(file)
+    lines.each do |line|
+      words = line.split(' ')
+      count += words.length if words.any?
     end
     count
   end
