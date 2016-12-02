@@ -10,10 +10,10 @@
 
 2- Create a regex expression that only permits this:
 a) 407-555-1212 or 321-555-1212
-b) email 
+b) email
 	valid: sara@example.com, sara@example.net , sara@example.org, sara.example.edu
 	invalid: sara@example!com , sara@example , sara@example.comlasada
-c) ok, Okay, sure, yes, y 
+c) ok, Okay, sure, yes, y
 
 3- Create an array with the following words: 'ruby', 'rails', 'test', 'gympass', 'bcn'
 a) Get the first element of array
@@ -23,4 +23,3 @@ d) Remove the last element
 e) Remove the 'test' element
 f) concat wit this array [true,true,true]
 j) Print only pair numbers; numbers = [1,2,3,4,5,6,7,8,9,10]
-
